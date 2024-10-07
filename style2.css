@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+input[type="text"], textarea, input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+input[type="text"]:focus, textarea:focus, input[type="number"]:focus {
+    border-color: #5cb85c;
+    outline: none;
+    box-shadow: 0 0 5px rgba(92, 184, 92, 0.5);
+}
+
+/* Style do botao voltar */
+.container {
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+}
+
+.btn-menu {
+    display: inline-block; 
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Peça</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h2>Inserir Nova Peça</h2>
+    <form method="POST" action="inserir_peca.php">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <textarea name="descricao" placeholder="Descrição"></textarea>
+        <input type="number" name="preco" placeholder="Preço" step="0.01" required>
+        <input type="number" name="quantidade_estoque" placeholder="Quantidade em Estoque" required>
+        <input type="submit" value="Inserir Peça">
+    </form>
+    <div class="container">
+        <a href="index.html" class="btn-menu">Voltar ao Menu</a>
+    </div>
+</body>
+</html>
